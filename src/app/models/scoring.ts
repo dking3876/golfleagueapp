@@ -1,5 +1,5 @@
 import { League } from "./league";
-import { User } from "./user";
+import { Golfer } from "./golfer";
 
 export interface Scoring{
     league:League;
@@ -7,7 +7,7 @@ export interface Scoring{
     weekNumber?:number;
 }
 export interface PlayerScore{
-    user:User;
+    user:Golfer;
     front9:number;
     back9:number;
     grossTotal:number;

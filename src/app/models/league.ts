@@ -1,18 +1,19 @@
 import { LeagueMode, ScoringMode } from "../enums/modes";
 import { Team } from "./team";
-import { User } from "./user";
+import { Golfer } from "./golfer";
 
 export interface League{
     id:string;
     name:string;
-    commisoner:User;
+    commisoner:Golfer;
     teams:Array<Team>;
     scoring:string;
     startDate:string;
     enddate:string;
     location:string;
-    users:Array<User>;
+    users:Array<Golfer>;
     leagueMode:LeagueMode;
     scoringMode:ScoringMode;
     image:string;
+    public:boolean;
 }

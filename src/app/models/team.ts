@@ -1,8 +1,8 @@
-import { User } from "./user";
+import { Golfer } from "./golfer";
 
 export interface Team{
     id:string;
     name:string;
-    users:Array<User>;
+    users:Array<Golfer>;
     image:string;
 }

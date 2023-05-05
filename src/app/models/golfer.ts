@@ -1,5 +1,5 @@
 import { League } from "./league";
-export interface User{
+export interface Golfer{
     id: string;
     ghinId: string;
     name:string;
